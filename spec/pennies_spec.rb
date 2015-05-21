@@ -52,4 +52,10 @@ RSpec.describe Pennies do
       end
     end
   end
+
+  describe "#score_finished_game" do
+    it "returns 1" do
+      expect(Pennies.new(1).score_finished_game).to eq 1
+    end
+  end
 end

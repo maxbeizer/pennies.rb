@@ -24,4 +24,8 @@ class Pennies
   def available_moves
     Array(1..3).select { |move| move <= number_of_pennies }
   end
+
+  def score_finished_game
+    1
+  end
 end
