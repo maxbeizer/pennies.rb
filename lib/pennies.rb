@@ -2,7 +2,7 @@ class Pennies
   attr_reader :number_of_pennies
 
   def initialize(number_of_pennies)
-    @number_of_pennies = number_of_pennies
+    @number_of_pennies = number_of_pennies.to_i
   end
 
   def game_over?
