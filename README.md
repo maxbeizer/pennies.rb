@@ -1,7 +1,7 @@
 # pennies.rb
 A children's game, written in Ruby as an exercise.
 
-Very heavily inspired by @jorendorff 's (game playing repo)[https://github.com/jorendorff/game-playing].
+Very heavily inspired by @jorendorff 's [game playing repo](https://github.com/jorendorff/game-playing).
 
 ## Play the Game
 make sure that `bin/play_pennies.rb` is `chmod +x`
