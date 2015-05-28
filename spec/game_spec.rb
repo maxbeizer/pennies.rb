@@ -9,7 +9,7 @@ RSpec.describe Game do
   # play_human_turn
   # play_computer_turn
   # collect_input
-  # input_invalid?
+  # input_valid?
   # invalid_input
   # annotate_game
 end
